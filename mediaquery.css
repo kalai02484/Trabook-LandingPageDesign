@@ -1,0 +1,178 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .hero-section {
+    width: 100%;
+    padding-bottom: 100px;
+  }
+
+  .hero-section .hero-wrapper {
+    width: 100%;
+    padding: 30px;
+  }
+  .hero-section .hero-wrapper .hero-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    align-items: center;
+    gap: 80px;
+  }
+
+  .hero-section .hero-wrapper .hero-content .hero-left-section {
+    width: 100%;
+  }
+
+  .hero-section .hero-wrapper .hero-content .hero-left-section h1 {
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 45px;
+  }
+
+  .hero-section .hero-wrapper .hero-content .hero-right-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero-section .hero-wrapper .hero-content .hero-right-section img {
+    width: 80%;
+  }
+
+  .hero-section .hero-wrapper .search-section .search-form {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+
+  .todo-section .todo-wrapper {
+    width: 100%;
+    padding: 100px 20px;
+}
+  .todo-section .todo-wrapper .todo-cards {
+        display: flex
+;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .hero-section {
+    width: 100%;
+    background: #fefcfb;
+    background-color: #fefcfb;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+  }
+
+  .hero-section .hero-wrapper {
+    width: 80%;
+    padding: 30px;
+  }
+  .hero-section .hero-wrapper .hero-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    align-items: center;
+    gap: 80px;
+  }
+
+  .hero-section .hero-wrapper .hero-content .hero-left-section {
+    width: 100%;
+  }
+
+  .hero-section .hero-wrapper .hero-content .hero-right-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero-section .hero-wrapper .hero-content .hero-right-section img {
+    width: 80%;
+  }
+  .hero-section .hero-wrapper .search-section .search-form {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .todo-section .todo-wrapper .todo-cards {
+        display: flex
+;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .hero-section {
+    width: 100%;
+    background: #fefcfb;
+    background-color: #fefcfb;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+  }
+
+  .hero-section .hero-wrapper {
+    width: 80%;
+    padding: 30px;
+  }
+  .hero-section .hero-wrapper .hero-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    margin-top: 50px;
+    align-items: center;
+    gap: 80px;
+  }
+
+  .hero-section .hero-wrapper .hero-content .hero-left-section {
+    width: 100%;
+  }
+
+  .hero-section .hero-wrapper .hero-content .hero-right-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero-section .hero-wrapper .hero-content .hero-right-section img {
+    width: 80%;
+  }
+
+  .hero-section .hero-wrapper .search-section .search-form {
+    width: 80%;
+    flex-wrap: wrap;
+  }
+
+  .todo-section .todo-wrapper .todo-cards {
+        display: flex
+;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        flex-wrap: nowrap;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}

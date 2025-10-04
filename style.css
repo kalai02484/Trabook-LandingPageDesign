@@ -1,0 +1,462 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+/* .swiper {
+      width: 100%;
+      height: 100%;
+    } */
+
+
+:root {
+  --primary-color: #FD8D3A;
+  --text-color: #222222;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-y: auto;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+    font-style: normal;
+}
+
+a, p, h1, h2, h3, h4, h5, h6, span{
+    font-family: "Nunito", sans-serif;
+    font-style: normal;
+}
+
+.hero-section{
+    /* height: 100vh; */
+    width: 100%;
+    background: #FEFCFB;
+    background-color: #FEFCFB;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.hero-section .hero-wrapper{
+    width: 75%;
+    max-width: 1440px;
+    padding: 20px;
+}
+
+.hero-section .hero-wrapper .navbar{
+    width: 100%;
+    display: flex;  
+    flex-wrap: nowrap !important;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-section .hero-wrapper .navbar .logo img{
+    width: 100px;
+}
+
+
+.hero-section .hero-wrapper .navbar .nav-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px !important;
+}
+
+.hero-section .hero-wrapper .navbar ul{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-section .hero-wrapper .navbar ul li a{
+    text-decoration: none;
+    color: #222222;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1.1px;
+}
+
+.hero-section .hero-wrapper .navbar .buttons .login-button{
+    padding: 10px 20px;
+    border: 0px;
+    display: inline-block;
+    background: transparent;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    margin-right: 15px;
+    color: var(--primary-color);
+    text-decoration: none;
+    letter-spacing: 1.1px;
+}
+
+.hero-section .hero-wrapper .navbar .buttons .signup-button{
+    padding: 10px 25px;
+    border: 0px;
+    display: inline-block;
+    background: var(--primary-color);
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    margin-right: 15px;
+    color: #ffffff;
+    text-decoration: none;
+    letter-spacing: 1.1px;
+    border-radius: 3px;
+}
+
+.hero-section .hero-wrapper .hero-content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    align-items: center;
+    gap: 20px;
+}
+
+.hero-section .hero-wrapper .hero-content .hero-left-section{
+    width: 40%;
+}
+
+.hero-section .hero-wrapper .hero-content .hero-left-section h1{
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 60px;
+    color: var(--text-color);
+    margin: 0px;
+}
+
+.hero-section .hero-wrapper .hero-content .hero-left-section h1 span{
+    color: var(--primary-color);
+}
+
+.hero-section .hero-wrapper .hero-content .hero-left-section p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--text-color);
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.hero-section .hero-wrapper .hero-content .hero-left-section .discover-button{
+    padding: 15px 30px;
+    border: 1px solid var(--primary-color);
+    background: #ffffff;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    color: var(--primary-color);
+    text-decoration: none;
+    letter-spacing: 1.1px;
+    border-radius: 3px;
+}
+
+.hero-section .hero-wrapper .hero-content .hero-right-section{
+    width: 45%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.hero-section .hero-wrapper .hero-content .hero-right-section img{
+    width: 100%;
+  }
+
+.hero-section .hero-wrapper .search-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-section .hero-wrapper .search-section .search-form{
+    width: 70%;
+    background: #ffffff;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-top: 50px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.hero-section .hero-wrapper .search-section .search-form .form-group{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.hero-section .hero-wrapper .search-section .search-form .form-group select{
+    border: none;
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--text-color);
+}
+
+.hero-section .hero-wrapper .search-section .search-form .form-group label{
+    font-size: 12px;
+    color: var(--text-color);
+    letter-spacing: 1.1px;
+    padding-left: 3px;
+}
+
+.hero-section .hero-wrapper .search-section .search-form .search-button{
+    padding: 15px 30px;
+    border: none;
+    background: var(--primary-color);
+    font-size: 14px;
+    cursor: pointer;
+    color: #ffffff;
+    text-decoration: none;
+    letter-spacing: 1.1px;
+    border-radius: 3px;
+}
+
+
+.todo-section{
+    background: #F7F8FC;
+    display: flex;
+    justify-content: center;
+}
+
+.todo-section .todo-wrapper{
+    width: 80%;
+    padding: 100px 20px;
+}
+
+.todo-section .todo-wrapper .todo-title{
+    text-align: center;
+}
+
+.todo-section .todo-wrapper .todo-title h2{
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 46px;
+    color: var(--text-color);
+    margin: 0px;
+}
+
+.todo-section .todo-wrapper .todo-title h2 span{
+    color: var(--primary-color);
+}
+
+.todo-section .todo-wrapper .todo-title p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--text-color);
+    margin-top: 20px;
+    margin-bottom: 50px;
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 0.5px;
+}
+
+.todo-section .todo-wrapper .todo-cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: nowrap;
+}
+
+.todo-section .todo-wrapper .todo-cards .todo-card{
+    background: #ffffff;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 30px 30px;
+    max-width: 375px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+
+.todo-section .todo-wrapper .todo-cards .todo-card img{
+    height: 50px;
+    width: auto;
+    margin-bottom: 30px;
+}
+
+.todo-section .todo-wrapper .todo-cards .todo-card h3{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: var(--text-color);
+    margin: 0px;
+    margin-bottom: 15px;
+}
+
+.todo-section .todo-wrapper .todo-cards .todo-card p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--text-color);
+    margin: 0px;
+    letter-spacing: 0.5px;
+}
+
+
+.deals-section{
+    background: #FEFCFB;
+    display: flex;
+    justify-content: center;
+}
+
+.deals-section .container{
+    width: 75%;
+    padding: 100px 20px;
+}
+
+.deals-section .container .deals-title{
+    text-align: center;
+}
+
+.deals-section .container .deals-title h2{
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 46px;
+    color: var(--text-color);
+    margin: 0px;
+}
+
+.deals-section .container .deals-title h2 span{
+    color: var(--primary-color);
+}
+
+.deals-section .container .deals-title p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--text-color);
+    margin-top: 20px;
+    margin-bottom: 50px;
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 0.5px;
+}
+
+
+.deals-card .deal-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.deals-slider{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 10px;
+}
+
+.deals-slider .deal-card {
+    background: #FEFCFB;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.deals-slider .deal-card img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.deal-info{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.deal-info .deal-title{
+    padding: 20px 20px 0px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+} 
+
+.deal-info .deal-title span{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--text-color);
+    margin: 0px;
+}
+
+.deal-info .deal-rating{
+    padding: 20px 20px 0px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.deal-card .deal-rating span{
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--text-color);
+}
+
+.deal-card .pricing-info{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px 20px 20px;
+}
+
+.deal-card .pricing-info .location{
+    font-weight: 500;
+    font-size: 14px;
+    padding: 0px 20px 0px 20px;
+    color: #888888;
+    margin: 0px;
+    display: block;
+}
+
+.deal-card .pricing-info .location i{
+    color: #888888;
+    margin-right: 5px;
+}
+
+.deal-card .pricing-info .price{
+    display: flex;
+    padding: 0px 20px 0px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.deal-card .pricing-info .price .original-price{
+    font-weight: 500;
+    font-size: 14px;
+    color: #888888;
+    text-decoration: line-through;
+}
+
+.deal-card .pricing-info .price .discounted-price{
+    font-weight: 700;
+    font-size: 14px;
+    color: var(--text-color);
+    background-color: #FFE7DB;
+    color: var(--primary-color);
+    padding: 3px 8px;
+    border-radius: 4px;
+}
+
+
