@@ -8,7 +8,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <!-- <link rel="stylesheet" href="Assets/package/swiper-bundle.min.css" /> -->
+    <link rel="stylesheet" href="Assets/package/swiper-bundle.min.css" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaquery.css" />
   </head>
@@ -57,255 +57,835 @@
           </div>
         </div>
         <div class="search-section">
-                <form class="search-form">
-                    <div class="form-group">
-                        <select>
-                            <option value="Location">Location</option>
-                        </select>
-                        <label for="destination">Where are you going</label>
-                    </div>
-                    <div class="form-group">
-                        <select>
-                            <option value="Null">Date</option>
-                        </select>
-                        <label for="destination">When you will go</label>
-                    </div>
-                    <div class="form-group">
-                        <select>
-                            <option value="Null">Guest</option>
-                        </select>
-                        <label for="destination">Number of guest</label>
-                    </div>
-                    <button type="submit" class="search-button">Explore Now</button>
-                </form>
+          <form class="search-form">
+            <div class="form-group">
+              <select>
+                <option value="Location">Location</option>
+              </select>
+              <label for="destination">Where are you going</label>
             </div>
+            <div class="form-group">
+              <select>
+                <option value="Null">Date</option>
+              </select>
+              <label for="destination">When you will go</label>
+            </div>
+            <div class="form-group">
+              <select>
+                <option value="Null">Guest</option>
+              </select>
+              <label for="destination">Number of guest</label>
+            </div>
+            <button type="submit" class="search-button">Explore Now</button>
+          </form>
+        </div>
       </div>
     </header>
 
     <main>
-        
-
-        <section class="todo-section">
-            <div class="todo-wrapper">
-                <div class="todo-title">
-                    <h2>Things you need <span>to do</span></h2>
-                    <p>We ensure that you’ll embark on a perfectly planned, safe vacation at a price you can afford. </p>
-                </div>            
-                <div class="todo-cards">
-                    <div class="todo-card">
-                        <img src="Assets/images/todo1.png" alt="Choose Destination" title="Choose Destination">
-                        <h3>Sign Up</h3>
-                        <p>Completes all the work associated with planning and processing</p>
-                    </div>
-                    <div class="todo-card">
-                        <img src="Assets/images/todo2.png" alt="Make Payment" title="Make Payment">
-                        <h3>Worth of Money</h3>
-                        <p>After successful access then book from exclusive deals & pricing</p>
-                    </div>
-                    <div class="todo-card">
-                        <img src="Assets/images/todo3.png" alt="Reach Airport on Selected Date" title="Reach Airport on Selected Date">
-                        <h3>Exciting Travel</h3>
-                        <p>Start and explore a wide range of exciting travel experience.</p>
-                    </div>
-                </div>
+      <section class="todo-section">
+        <div class="todo-wrapper">
+          <div class="todo-title">
+            <h2>Things you need <span>to do</span></h2>
+            <p>
+              We ensure that you’ll embark on a perfectly planned, safe vacation
+              at a price you can afford.
+            </p>
+          </div>
+          <div class="todo-cards">
+            <div class="todo-card">
+              <img
+                src="Assets/images/todo1.png"
+                alt="Choose Destination"
+                title="Choose Destination"
+              />
+              <h3>Sign Up</h3>
+              <p>
+                Completes all the work associated with planning and processing
+              </p>
             </div>
-        </section>
-
-        <!-- <section class="deals-section">
-            <div class="container">
-                <div class="deals-title">
-                    <h2>Exclusive <span>deals & discounts</span></h2>
-                    <p>Discover our fantastic early booking discounts & start planning your journey.</p>
-                </div>
-                <div class="deals-slider">
-                    <div class="deal-card">
-                        <img src="Assets/images/deal1.png" alt="Deal 1" title="Deal 1">
-                        <div class="deal-info">
-                            <div class="deal-title"> 
-                                <span>Rome, Italy</span>
-                            </div> 
-                            <div class="deal-rating">
-                                <i class="fa fa-star" aria-hidden="true" style="color: gold;"></i><span>4.8</span>
-                            </div>                             
-                        </div>
-
-                        <div class="pricing-info">
-                            <span class="location"><i class="fa fa-map-marker" aria-hidden="true"></i> Spain</span>
-                            <div class="price">
-                                <span class="original-price">$700</span>
-                                <span class="discounted-price">$500</span>
-                            </div>
-                        </div> 
-                    </div>
-
-                    <div class="deal-card">
-                        <img src="Assets/images/deal1.png" alt="Deal 1" title="Deal 1">
-                        <div class="deal-info">
-                            <div class="deal-title"> 
-                                <span>Rome, Italy</span>
-                            </div> 
-                            <div class="deal-rating">
-                                <i class="fa fa-star" aria-hidden="true" style="color: gold;"></i><span>4.8</span>
-                            </div>                             
-                        </div>
-
-                        <div class="pricing-info">
-                            <span class="location"><i class="fa fa-map-marker" aria-hidden="true"></i> Spain</span>
-                            <div class="price">
-                                <span class="original-price">$700</span>
-                                <span class="discounted-price">$500</span>
-                            </div>
-                        </div> 
-                    </div>
-
-
-                    <div class="deal-card">
-                        <img src="Assets/images/deal1.png" alt="Deal 1" title="Deal 1">
-                        <div class="deal-info">
-                            <div class="deal-title"> 
-                                <span>Rome, Italy</span>
-                            </div> 
-                            <div class="deal-rating">
-                                <i class="fa fa-star" aria-hidden="true" style="color: gold;"></i><span>4.8</span>
-                            </div>                             
-                        </div>
-
-                        <div class="pricing-info">
-                            <span class="location"><i class="fa fa-map-marker" aria-hidden="true"></i> Spain</span>
-                            <div class="price">
-                                <span class="original-price">$700</span>
-                                <span class="discounted-price">$500</span>
-                            </div>
-                        </div> 
-                    </div>
-
-
-                    <div class="deal-card">
-                        <img src="Assets/images/deal1.png" alt="Deal 1" title="Deal 1">
-                        <div class="deal-info">
-                            <div class="deal-title"> 
-                                <span>Rome, Italy</span>
-                            </div> 
-                            <div class="deal-rating">
-                                <i class="fa fa-star" aria-hidden="true" style="color: gold;"></i><span>4.8</span>
-                            </div>                             
-                        </div>
-
-                        <div class="pricing-info">
-                            <span class="location"><i class="fa fa-map-marker" aria-hidden="true"></i> Spain</span>
-                            <div class="price">
-                                <span class="original-price">$700</span>
-                                <span class="discounted-price">$500</span>
-                            </div>
-                        </div> 
-                    </div>
-                    
-                </div>  
+            <div class="todo-card">
+              <img
+                src="Assets/images/todo2.png"
+                alt="Make Payment"
+                title="Make Payment"
+              />
+              <h3>Worth of Money</h3>
+              <p>
+                After successful access then book from exclusive deals & pricing
+              </p>
             </div>
-        </section> -->
-
-
-        <!-- <section class="vacation-section">
-            <div class="container">
-                <div class="deals-title">
-                    <h2>Best <span> vacation plan</span></h2>
-                    <p>Plan your perfect vacation with our travel agency. Choose among hundreds of all-inclusive offers! </p>
-                </div>
-                <div class="vacation-slider">
-                    <div class="vacation-card">
-                        <img src="Assets/images/vacation1.png" alt="vacation 1" title="vacation 1">
-                        <div class="deal-info">
-                            <div class="deal-title"> 
-                                <span>Rome, Italy</span>
-                            </div> 
-                            <div class="deal-rating">
-                                <i class="fa fa-star" aria-hidden="true" style="color: gold;"></i><span>4.8</span>
-                            </div>                             
-                        </div>
-
-                        <div class="pricing-info">
-                            <span class="location">Spain</span>
-                            <div class="price">
-                                <span class="original-price">$700</span>
-                                <span class="discounted-price">$500</span>
-                            </div>
-                        </div> 
-                    </div>
-
-                    <div class="deal-card">
-                        <img src="Assets/images/deal1.png" alt="Deal 1" title="Deal 1">
-                        <div class="deal-info">
-                            <div class="deal-title"> 
-                                <span>Rome, Italy</span>
-                            </div> 
-                            <div class="deal-rating">
-                                <i class="fa fa-star" aria-hidden="true" style="color: gold;"></i><span>4.8</span>
-                            </div>                             
-                        </div>
-
-                        <div class="pricing-info">
-                            <span class="location">Spain</span>
-                            <div class="price">
-                                <span class="original-price">$700</span>
-                                <span class="discounted-price">$500</span>
-                            </div>
-                        </div> 
-                    </div>
-
-
-                    <div class="deal-card">
-                        <img src="Assets/images/deal1.png" alt="Deal 1" title="Deal 1">
-                        <div class="deal-info">
-                            <div class="deal-title"> 
-                                <span>Rome, Italy</span>
-                            </div> 
-                            <div class="deal-rating">
-                                <i class="fa fa-star" aria-hidden="true" style="color: gold;"></i><span>4.8</span>
-                            </div>                             
-                        </div>
-
-                        <div class="pricing-info">
-                            <span class="location">Spain</span>
-                            <div class="price">
-                                <span class="original-price">$700</span>
-                                <span class="discounted-price">$500</span>
-                            </div>
-                        </div> 
-                    </div>
-
-
-                    <div class="deal-card">
-                        <img src="Assets/images/deal1.png" alt="Deal 1" title="Deal 1">
-                        <div class="deal-info">
-                            <div class="deal-title"> 
-                                <span>Rome, Italy</span>
-                            </div> 
-                            <div class="deal-rating">
-                                <i class="fa fa-star" aria-hidden="true" style="color: gold;"></i><span>4.8</span>
-                            </div>                             
-                        </div>
-
-                        <div class="pricing-info">
-                            <span class="location">Spain</span>
-                            <div class="price">
-                                <span class="original-price">$700</span>
-                                <span class="discounted-price">$500</span>
-                            </div>
-                        </div> 
-                    </div>
-                    
-                </div>  
+            <div class="todo-card">
+              <img
+                src="Assets/images/todo3.png"
+                alt="Reach Airport on Selected Date"
+                title="Reach Airport on Selected Date"
+              />
+              <h3>Exciting Travel</h3>
+              <p>
+                Start and explore a wide range of exciting travel experience.
+              </p>
             </div>
-        </section> -->
+          </div>
+        </div>
+      </section>
 
+      <section class="deals-section">
+        <div class="deals-wrapper">
+          <div class="deals-title">
+            <h2>Exclusive <span>deals & discounts</span></h2>
+            <p>
+              Discover our fantastic early booking discounts & start planning
+              your journey.
+            </p>
+          </div>
+          <!-- Slider main container -->
+          <div class="swiper deal-swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper deals-slider">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <div class="deal-card">
+                  <img
+                    src="Assets/images/deal1.png"
+                    alt="Deal 1"
+                    title="Deal 1"
+                  />
+                  <div class="deal-info">
+                    <div class="deal-title">
+                      <span>Madrid</span>
+                    </div>
+                    <div class="deal-rating">
+                      <i
+                        class="fa fa-star"
+                        aria-hidden="true"
+                        style="color: gold"
+                      ></i
+                      ><span>4.8</span>
+                    </div>
+                  </div>
 
+                  <div class="pricing-info">
+                    <span class="location"
+                      ><i class="fa fa-map-marker" aria-hidden="true"></i>
+                      Spain</span
+                    >
+                    <div class="price">
+                      <span class="original-price">$950</span>
+                      <span class="discounted-price">$850</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="deal-card">
+                  <img
+                    src="Assets/images/deal2.png"
+                    alt="Deal 2"
+                    title="Deal 2"
+                  />
+                  <div class="deal-info">
+                    <div class="deal-title">
+                      <span>Firenze</span>
+                    </div>
+                    <div class="deal-rating">
+                      <i
+                        class="fa fa-star"
+                        aria-hidden="true"
+                        style="color: gold"
+                      ></i
+                      ><span>4.5</span>
+                    </div>
+                  </div>
 
+                  <div class="pricing-info">
+                    <span class="location"
+                      ><i class="fa fa-map-marker" aria-hidden="true"></i>
+                      Italy</span
+                    >
+                    <div class="price">
+                      <span class="original-price">$850</span>
+                      <span class="discounted-price">$750</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="deal-card">
+                  <img
+                    src="Assets/images/deal3.png"
+                    alt="Deal 3"
+                    title="Deal 3"
+                  />
+                  <div class="deal-info">
+                    <div class="deal-title">
+                      <span>Paris</span>
+                    </div>
+                    <div class="deal-rating">
+                      <i
+                        class="fa fa-star"
+                        aria-hidden="true"
+                        style="color: gold"
+                      ></i
+                      ><span>4.4</span>
+                    </div>
+                  </div>
 
+                  <div class="pricing-info">
+                    <span class="location"
+                      ><i class="fa fa-map-marker" aria-hidden="true"></i>
+                      France</span
+                    >
+                    <div class="price">
+                      <span class="original-price">$699</span>
+                      <span class="discounted-price">$599</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="deal-card">
+                  <img
+                    src="Assets/images/deal4.png"
+                    alt="Deal 4"
+                    title="Deal 4"
+                  />
+                  <div class="deal-info">
+                    <div class="deal-title">
+                      <span>London</span>
+                    </div>
+                    <div class="deal-rating">
+                      <i
+                        class="fa fa-star"
+                        aria-hidden="true"
+                        style="color: gold"
+                      ></i
+                      ><span>4.8</span>
+                    </div>
+                  </div>
 
+                  <div class="pricing-info">
+                    <span class="location"
+                      ><i class="fa fa-map-marker" aria-hidden="true"></i>
+                      UK</span
+                    >
+                    <div class="price">
+                      <span class="original-price">$700</span>
+                      <span class="discounted-price">$500</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="deal-card">
+                  <img
+                    src="Assets/images/deal1.png"
+                    alt="Deal 1"
+                    title="Deal 1"
+                  />
+                  <div class="deal-info">
+                    <div class="deal-title">
+                      <span>Madrid</span>
+                    </div>
+                    <div class="deal-rating">
+                      <i
+                        class="fa fa-star"
+                        aria-hidden="true"
+                        style="color: gold"
+                      ></i
+                      ><span>4.8</span>
+                    </div>
+                  </div>
+
+                  <div class="pricing-info">
+                    <span class="location"
+                      ><i class="fa fa-map-marker" aria-hidden="true"></i>
+                      Spain</span
+                    >
+                    <div class="price">
+                      <span class="original-price">$950</span>
+                      <span class="discounted-price">$850</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="deal-card">
+                  <img
+                    src="Assets/images/deal2.png"
+                    alt="Deal 2"
+                    title="Deal 2"
+                  />
+                  <div class="deal-info">
+                    <div class="deal-title">
+                      <span>Firenze</span>
+                    </div>
+                    <div class="deal-rating">
+                      <i
+                        class="fa fa-star"
+                        aria-hidden="true"
+                        style="color: gold"
+                      ></i
+                      ><span>4.5</span>
+                    </div>
+                  </div>
+
+                  <div class="pricing-info">
+                    <span class="location"
+                      ><i class="fa fa-map-marker" aria-hidden="true"></i>
+                      Italy</span
+                    >
+                    <div class="price">
+                      <span class="original-price">$850</span>
+                      <span class="discounted-price">$750</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="deal-card">
+                  <img
+                    src="Assets/images/deal3.png"
+                    alt="Deal 3"
+                    title="Deal 3"
+                  />
+                  <div class="deal-info">
+                    <div class="deal-title">
+                      <span>Paris</span>
+                    </div>
+                    <div class="deal-rating">
+                      <i
+                        class="fa fa-star"
+                        aria-hidden="true"
+                        style="color: gold"
+                      ></i
+                      ><span>4.4</span>
+                    </div>
+                  </div>
+
+                  <div class="pricing-info">
+                    <span class="location"
+                      ><i class="fa fa-map-marker" aria-hidden="true"></i>
+                      France</span
+                    >
+                    <div class="price">
+                      <span class="original-price">$699</span>
+                      <span class="discounted-price">$599</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="deal-card">
+                  <img
+                    src="Assets/images/deal4.png"
+                    alt="Deal 4"
+                    title="Deal 4"
+                  />
+                  <div class="deal-info">
+                    <div class="deal-title">
+                      <span>London</span>
+                    </div>
+                    <div class="deal-rating">
+                      <i
+                        class="fa fa-star"
+                        aria-hidden="true"
+                        style="color: gold"
+                      ></i
+                      ><span>4.8</span>
+                    </div>
+                  </div>
+
+                  <div class="pricing-info">
+                    <span class="location"
+                      ><i class="fa fa-map-marker" aria-hidden="true"></i>
+                      UK</span
+                    >
+                    <div class="price">
+                      <span class="original-price">$700</span>
+                      <span class="discounted-price">$500</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-next">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-move-right-icon lucide-move-right"
+              >
+                <path d="M18 8L22 12L18 16" />
+                <path d="M2 12H22" />
+              </svg>
+            </div>
+            <div class="swiper-button-prev">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-move-left-icon lucide-move-left"
+              >
+                <path d="M6 8L2 12L6 16" />
+                <path d="M2 12H22" />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="vacation-section">
+        <div class="vacation-wrapper">
+          <div class="vacation-title">
+            <h2>Best <span>vacation plan</span></h2>
+            <p>
+              Discover our fantastic early booking discounts & start planning
+              your journey.
+            </p>
+          </div>
+          <!-- Slider main container -->
+          <div class="swiper vacation-swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper vacation-slider">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <div class="vacation-card">
+                  <img
+                    src="Assets/images/vacation3.png"
+                    alt="vacation 2"
+                    title="vacation 2"
+                  />
+                  <div class="vacation-info">
+                    <div class="vacation-title">
+                      <span>Madrid</span>
+                    </div>
+                    <div class="vacation-pricing">
+                      <span class="original-price">$5,42k</span>
+                    </div>
+                  </div>
+
+                  <div class="rating-info">
+                    <span class="location"
+                      ><i class="fa fa-map-marker" aria-hidden="true"></i>
+                      Spain</span
+                    >
+                    <div class="vacation-rating">
+                      <i
+                        class="fa fa-star"
+                        aria-hidden="true"
+                        style="color: gold"
+                      ></i
+                      ><span>4.8</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="vacation-card">
+                  <img
+                    src="Assets/images/vacation2.png"
+                    alt="vacation 2"
+                    title="vacation 2"
+                  />
+                  <div class="vacation-info">
+                    <div class="vacation-title">
+                      <span>Madrid</span>
+                    </div>
+                    <div class="vacation-pricing">
+                      <span class="original-price">$5,42k</span>
+                    </div>
+                  </div>
+
+                  <div class="rating-info">
+                    <span class="location"
+                      ><i class="fa fa-map-marker" aria-hidden="true"></i>
+                      Spain</span
+                    >
+                    <div class="vacation-rating">
+                      <i
+                        class="fa fa-star"
+                        aria-hidden="true"
+                        style="color: gold"
+                      ></i
+                      ><span>4.8</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="vacation-card">
+                  <img
+                    src="Assets/images/vacation3.png"
+                    alt="vacation 2"
+                    title="vacation 2"
+                  />
+                  <div class="vacation-info">
+                    <div class="vacation-title">
+                      <span>Madrid</span>
+                    </div>
+                    <div class="vacation-pricing">
+                      <span class="original-price">$5,42k</span>
+                    </div>
+                  </div>
+
+                  <div class="rating-info">
+                    <span class="location"
+                      ><i class="fa fa-map-marker" aria-hidden="true"></i>
+                      Spain</span
+                    >
+                    <div class="vacation-rating">
+                      <i
+                        class="fa fa-star"
+                        aria-hidden="true"
+                        style="color: gold"
+                      ></i
+                      ><span>4.8</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="vacation-card">
+                  <img
+                    src="Assets/images/vacation2.png"
+                    alt="vacation 2"
+                    title="vacation 2"
+                  />
+                  <div class="vacation-info">
+                    <div class="vacation-title">
+                      <span>Madrid</span>
+                    </div>
+                    <div class="vacation-pricing">
+                      <span class="original-price">$5,42k</span>
+                    </div>
+                  </div>
+
+                  <div class="rating-info">
+                    <span class="location"
+                      ><i class="fa fa-map-marker" aria-hidden="true"></i>
+                      Spain</span
+                    >
+                    <div class="vacation-rating">
+                      <i
+                        class="fa fa-star"
+                        aria-hidden="true"
+                        style="color: gold"
+                      ></i
+                      ><span>4.8</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="vacation-card">
+                  <img
+                    src="Assets/images/vacation3.png"
+                    alt="vacation 2"
+                    title="vacation 2"
+                  />
+                  <div class="vacation-info">
+                    <div class="vacation-title">
+                      <span>Madrid</span>
+                    </div>
+                    <div class="vacation-pricing">
+                      <span class="original-price">$5,42k</span>
+                    </div>
+                  </div>
+
+                  <div class="rating-info">
+                    <span class="location"
+                      ><i class="fa fa-map-marker" aria-hidden="true"></i>
+                      Spain</span
+                    >
+                    <div class="vacation-rating">
+                      <i
+                        class="fa fa-star"
+                        aria-hidden="true"
+                        style="color: gold"
+                      ></i
+                      ><span>4.8</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="vacation-card">
+                  <img
+                    src="Assets/images/vacation2.png"
+                    alt="vacation 2"
+                    title="vacation 2"
+                  />
+                  <div class="vacation-info">
+                    <div class="vacation-title">
+                      <span>Madrid</span>
+                    </div>
+                    <div class="vacation-pricing">
+                      <span class="original-price">$5,42k</span>
+                    </div>
+                  </div>
+
+                  <div class="rating-info">
+                    <span class="location"
+                      ><i class="fa fa-map-marker" aria-hidden="true"></i>
+                      Spain</span
+                    >
+                    <div class="vacation-rating">
+                      <i
+                        class="fa fa-star"
+                        aria-hidden="true"
+                        style="color: gold"
+                      ></i
+                      ><span>4.8</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-next">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-move-right-icon lucide-move-right"
+              >
+                <path d="M18 8L22 12L18 16" />
+                <path d="M2 12H22" />
+              </svg>
+            </div>
+            <div class="swiper-button-prev">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-move-left-icon lucide-move-left"
+              >
+                <path d="M6 8L2 12L6 16" />
+                <path d="M2 12H22" />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="blog-section">
+        <div class="blog-wrapper">
+          <div class="blog-title">
+            <h2>Get update with <span>latest blog</span></h2>
+          </div>
+          <!-- Slider main container -->
+          <div class="swiper blog-swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper blog-slider">
+              <!-- Slides -->
+
+              <div class="swiper-slide">
+                <div class="blog-card">
+                  <img
+                    src="Assets/images/blog1.png"
+                    alt="blog 1"
+                    title="blog 1"
+                  />
+                  <div class="blog-info">
+                    <p class="title">
+                      The Amazing Difference a Year of Travelling.
+                    </p>
+                    <p class="date">July 27, 2021</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="blog-card">
+                  <img
+                    src="Assets/images/blog2.png"
+                    alt="blog 2"
+                    title="blog 2"
+                  />
+                  <div class="blog-info">
+                    <p class="title">Travel far enough, you meet yourself.</p>
+                    <p class="date">July 27, 2021</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="blog-card">
+                  <img
+                    src="Assets/images/blog3.png"
+                    alt="blog 3"
+                    title="blog 3"
+                  />
+                  <div class="blog-info">
+                    <p class="title">
+                      How to Save Money While Visiting Africa .
+                    </p>
+                    <p class="date">July 27, 2021</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="blog-card">
+                  <img
+                    src="Assets/images/blog4.png"
+                    alt="blog 4"
+                    title="blog 4"
+                  />
+                  <div class="blog-info">
+                    <p class="title">
+                      Reflections on 5 Months of Travel: Time to Hang
+                    </p>
+                    <p class="date">July 27, 2021</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="blog-card">
+                  <img
+                    src="Assets/images/blog1.png"
+                    alt="blog 1"
+                    title="blog 1"
+                  />
+                  <div class="blog-info">
+                    <p class="title">
+                      The Amazing Difference a Year of Travelling.
+                    </p>
+                    <p class="date">July 27, 2021</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="blog-card">
+                  <img
+                    src="Assets/images/blog2.png"
+                    alt="blog 2"
+                    title="blog 2"
+                  />
+                  <div class="blog-info">
+                    <p class="title">Travel far enough, you meet yourself.</p>
+                    <p class="date">July 27, 2021</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="blog-card">
+                  <img
+                    src="Assets/images/blog3.png"
+                    alt="blog 3"
+                    title="blog 3"
+                  />
+                  <div class="blog-info">
+                    <p class="title">
+                      How to Save Money While Visiting Africa .
+                    </p>
+                    <p class="date">July 27, 2021</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="blog-card">
+                  <img
+                    src="Assets/images/blog4.png"
+                    alt="blog 4"
+                    title="blog 4"
+                  />
+                  <div class="blog-info">
+                    <p class="title">
+                      Reflections on 5 Months of Travel: Time to Hang
+                    </p>
+                    <p class="date">July 27, 2021</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="subscribe-section">
+        <div class="subscribe-wrapper">
+          <div class="subscribe-title">
+            <h2>Subscribe to get exclusive deals & offer</h2>
+          </div>
+          <form class="subscribe-form">
+            <span><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
+            <input
+              type="email"
+              placeholder="Enter your email address"
+              required
+            />
+            <button type="submit" class="subscribe-button">Subscribe</button>
+          </form>
+        </div>
+      </section>
     </main>
 
     <footer>
-      <p>&copy; 2024 Trabook. All rights reserved.</p>
+      <section class="footer-section">
+        <div class="footer-wrapper">
+          <div class="footer-logo">
+            <img
+              src="Assets/images/Logo.png"
+              alt="Trabook logo"
+              title="Trabook Logo"
+            />
+            <p>
+              We are here to make your journey enjoyable, memorable and safe
+              with our best services.
+            </p>
+            <div class="social-icons">
+              <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+              <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+              <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            </div>
+          </div>
+        </div>
+      </section>
     </footer>
 
     <script

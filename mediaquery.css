@@ -44,21 +44,18 @@
     flex-wrap: wrap;
   }
 
-
   .todo-section .todo-wrapper {
     width: 100%;
     padding: 100px 20px;
-}
+  }
   .todo-section .todo-wrapper .todo-cards {
-        display: flex
-;
-        justify-content: center;
-        align-items: center;
-        gap: 20px;
-        flex-wrap: wrap;
-    }
-
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 10px;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -105,14 +102,12 @@
   }
 
   .todo-section .todo-wrapper .todo-cards {
-        display: flex
-;
-        justify-content: center;
-        align-items: center;
-        gap: 20px;
-        flex-wrap: wrap;
-    }
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -146,7 +141,7 @@
   .hero-section .hero-wrapper .hero-content .hero-right-section {
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
   }
 
@@ -160,17 +155,23 @@
   }
 
   .todo-section .todo-wrapper .todo-cards {
-        display: flex
-;
-        justify-content: center;
-        align-items: center;
-        gap: 20px;
-        flex-wrap: nowrap;
-    }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+  .todo-section .todo-wrapper .todo-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: nowrap;
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
