@@ -16,7 +16,6 @@ Welcome to the Trabook Landing Page Design project! This repository contains the
 - CSS3 / SCSS
 - JavaScript (ES6+)
 - Swiper JS
-- [Add frameworks/libraries if used, e.g., React, Bootstrap]
 
 ## Getting Started
 
