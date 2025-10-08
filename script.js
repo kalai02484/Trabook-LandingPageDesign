@@ -49,6 +49,23 @@ var swiper = new Swiper(".vacation-swiper", {
   },
 });
 
+
+var swiper = new Swiper(".about-swiper", {
+  slidesPerView: 1,
+  spaceBetween: 40,
+  loop: true,
+  effect: "cards",
+      grabCursor: true,
+  autoplay: {
+    delay: 5000,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  }
+});
+
+
 var swiper = new Swiper(".blog-swiper", {
   slidesPerView: 1,
   spaceBetween: 40,
@@ -60,10 +77,10 @@ var swiper = new Swiper(".blog-swiper", {
     el: ".swiper-pagination",
     clickable: true,
   },
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
+//   navigation: {
+//     nextEl: ".swiper-button-next",
+//     prevEl: ".swiper-button-prev",
+//   },
   breakpoints: {
     640: {
       slidesPerView: 1,

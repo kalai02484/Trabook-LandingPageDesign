@@ -20,7 +20,7 @@
     display: inline-block;
     /* width: 50px;
       height: 50px; */
-    padding: 13px;
+    padding: 10px 0px;
   }
 
   .navbar > .nav-btn > label > span {
@@ -41,7 +41,6 @@
     left: 0px;
   }
 
-
   .navbar > .nav-links > a {
     display: block;
     width: 100%;
@@ -56,11 +55,10 @@
     flex-direction: column;
   }
 
-  .hero-section .hero-wrapper .navbar .buttons{
+  .hero-section .hero-wrapper .navbar .buttons {
     margin-right: 50px;
     display: none;
   }
-
 
   .hero-section .hero-wrapper .navbar ul li a {
     text-decoration: none;
@@ -117,6 +115,36 @@
     flex-wrap: wrap;
     padding: 10px;
   }
+
+  .about-section .about-wrapper {
+    width: 80%;
+    padding: 100px 20px;
+  }
+  .about-section .about-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .about-section .about-wrapper .about-left-section,
+  .about-section .about-wrapper .about-right-section {
+    width: 100%;
+    text-align: center;
+  }
+
+  .about-section .about-wrapper .about-left-section .about-title h2{
+    max-width: 100%;
+  }
+
+  .about-section .about-wrapper .about-title p{
+    max-width: 100%;
+  }
+
+  .about-swiper{
+    padding: 0px;
+}
 
   .subscribe-section .subscribe-wrapper .subscribe-form {
     display: flex;
@@ -214,7 +242,7 @@
     display: none;
   }
 
-  .hero-section .hero-wrapper .navbar .buttons{
+  .hero-section .hero-wrapper .navbar .buttons {
     margin-right: 50px;
   }
 
@@ -285,6 +313,36 @@
     flex-wrap: wrap;
   }
 
+   .about-section .about-wrapper {
+    width: 80%;
+    padding: 100px 20px;
+  }
+  .about-section .about-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .about-section .about-wrapper .about-left-section,
+  .about-section .about-wrapper .about-right-section {
+    width: 100%;
+    text-align: center;
+  }
+
+  .about-section .about-wrapper .about-left-section .about-title h2{
+    max-width: 100%;
+  }
+
+  .about-section .about-wrapper .about-title p{
+    max-width: 100%;
+  }
+
+  .about-swiper{
+    padding: 0px;
+}
+
   .footer-section .footer-wrapper {
     width: 80%;
     padding: 50px 30px;
@@ -319,6 +377,14 @@
     padding: 30px;
   }
 
+  .hero-section .hero-wrapper .navbar ul li .signup-button {
+    display: none;
+  }
+
+  .hero-section .hero-wrapper .navbar ul li .login-button {
+    display: none;
+  }
+
   .navbar > .nav-btn {
     display: inline-block;
     position: absolute;
@@ -340,8 +406,8 @@
     letter-spacing: 1.1px;
   }
 
-  .hero-section .hero-wrapper .navbar .buttons{
-    margin-right: 50px;
+  .hero-section .hero-wrapper .navbar .buttons {
+    margin-right: 70px;
   }
 
   .navbar > .nav-btn > label > span {
@@ -374,7 +440,6 @@
     display: flex;
     flex-direction: column;
   }
-
 
   .hero-section .hero-wrapper .hero-content {
     display: flex;
@@ -413,6 +478,36 @@
     flex-wrap: wrap;
   }
 
+  .about-section .about-wrapper {
+    width: 80%;
+    padding: 100px 20px;
+  }
+  .about-section .about-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .about-section .about-wrapper .about-left-section,
+  .about-section .about-wrapper .about-right-section {
+    width: 100%;
+    text-align: center;
+  }
+
+  .about-section .about-wrapper .about-left-section .about-title h2{
+    max-width: 100%;
+  }
+
+  .about-section .about-wrapper .about-title p{
+    max-width: 100%;
+  }
+
+  .about-swiper{
+    padding: 0px;
+}
+
   .footer-section .footer-wrapper {
     width: 80%;
     padding: 50px 30px;
@@ -429,7 +524,16 @@
   .hero-section .hero-wrapper {
     width: 85%;
     padding: 20px;
-}
+  }
+
+  .hero-section .hero-wrapper .navbar ul li:last-child {
+    display: none; /* hides the last li */
+  }
+
+  .hero-section .hero-wrapper .navbar ul li:nth-last-child(2) {
+    display: none; /* hides the second-to-last li */
+  }
+
   .todo-section .todo-wrapper .todo-cards {
     display: flex;
     justify-content: center;
@@ -437,10 +541,30 @@
     gap: 20px;
     flex-wrap: wrap;
   }
+
+  .todo-section .todo-wrapper .todo-cards .todo-card {
+    background: #ffffff;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 30px 30px;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+  
+  .hero-section .hero-wrapper .navbar ul li:last-child {
+    display: none; /* hides the last li */
+  }
+
+  .hero-section .hero-wrapper .navbar ul li:nth-last-child(2) {
+    display: none; /* hides the second-to-last li */
+  }
 
   .todo-section .todo-wrapper .todo-cards {
     display: flex;
@@ -449,5 +573,4 @@
     gap: 20px;
     flex-wrap: nowrap;
   }
-
 }
