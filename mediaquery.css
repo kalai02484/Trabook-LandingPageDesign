@@ -55,6 +55,13 @@
     flex-direction: column;
   }
 
+  .hero-section .hero-wrapper .hero-content {
+    background-image: url(Assets/images/hero-right-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 55% auto;
+}
+
   .hero-section .hero-wrapper .navbar .buttons {
     margin-right: 50px;
     display: none;
@@ -116,8 +123,33 @@
     padding: 10px;
   }
 
+  .todo-section .todo-wrapper .bg {
+        position: absolute;
+        top: 5%;
+        right: 0;
+        width: 50%;
+        height: 15%;
+        background: url(Assets/images/todo-element.svg) no-repeat center center;
+        background-size: contain;
+        z-index: 0;
+        opacity: 0.5;
+    }
+
+    .vacation-section .vacation-wrapper .bg {
+        position: absolute;
+        top: 5%;
+        right: 0%;
+        width: 125px;
+        height: 15%;
+        background: url(Assets/images/vacation-element.svg) no-repeat center center;
+        background-size: contain;
+        z-index: 0;
+        opacity: 0.4;
+    }
+
+
   .about-section .about-wrapper {
-    width: 80%;
+    width: 75%;
     padding: 100px 20px;
   }
   .about-section .about-wrapper {
@@ -227,6 +259,13 @@
     padding: 13px;
   }
 
+  .hero-section .hero-wrapper .hero-content {
+    background-image: url(Assets/images/hero-right-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 55% auto;
+}
+
   .hero-section .hero-wrapper .navbar ul li a {
     text-decoration: none;
     color: #eaeaea;
@@ -312,6 +351,31 @@
     gap: 20px;
     flex-wrap: wrap;
   }
+
+  .todo-section .todo-wrapper .bg {
+        position: absolute;
+        top: 5%;
+        right: 0;
+        width: 50%;
+        height: 15%;
+        background: url(Assets/images/todo-element.svg) no-repeat center center;
+        background-size: contain;
+        z-index: 0;
+        opacity: 0.5;
+    }
+
+
+    .vacation-section .vacation-wrapper .bg {
+        position: absolute;
+        top: 5%;
+        right: 0%;
+        width: 125px;
+        height: 15%;
+        background: url(Assets/images/vacation-element.svg) no-repeat center center;
+        background-size: contain;
+        z-index: 0;
+        opacity: 0.4;
+    }
 
    .about-section .about-wrapper {
     width: 80%;
@@ -478,6 +542,31 @@
     flex-wrap: wrap;
   }
 
+  .todo-section .todo-wrapper .bg {
+        position: absolute;
+        top: 5%;
+        right: 0;
+        width: 50%;
+        height: 15%;
+        background: url(Assets/images/todo-element.svg) no-repeat center center;
+        background-size: contain;
+        z-index: 0;
+        opacity: 0.5;
+    }
+
+
+    .vacation-section .vacation-wrapper .bg {
+        position: absolute;
+        top: 5%;
+        right: 0%;
+        width: 125px;
+        height: 15%;
+        background: url(Assets/images/vacation-element.svg) no-repeat center center;
+        background-size: contain;
+        z-index: 0;
+        opacity: 0.4;
+    }
+
   .about-section .about-wrapper {
     width: 80%;
     padding: 100px 20px;
@@ -533,6 +622,18 @@
   .hero-section .hero-wrapper .navbar ul li:nth-last-child(2) {
     display: none; /* hides the second-to-last li */
   }
+
+  .todo-section .todo-wrapper .bg {
+    position: absolute;
+    top: 5%;
+    right: 15%;
+    width: 200px;
+    height: 15%;
+    background: url(Assets/images/todo-element.svg) no-repeat center center;
+    background-size: contain;
+    z-index: 0;
+    opacity: 0.4;
+}
 
   .todo-section .todo-wrapper .todo-cards {
     display: flex;

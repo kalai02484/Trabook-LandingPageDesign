@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
-
 :root {
   --primary-color: #fd8d3a;
   --text-color: #222222;
@@ -79,6 +77,10 @@ span {
   letter-spacing: 1.1px;
 }
 
+.hero-section .hero-wrapper .navbar ul li a:hover {
+  color: var(--primary-color);
+}
+
 .hero-section .hero-wrapper .navbar .buttons .login-button {
   padding: 10px 20px;
   border: 0px;
@@ -91,6 +93,12 @@ span {
   color: var(--primary-color);
   text-decoration: none;
   letter-spacing: 1.1px;
+  border-radius: 3px;
+  border: transparent 1px solid;
+}
+
+.hero-section .hero-wrapper .navbar .buttons .login-button:hover {
+  border: 1px solid var(--primary-color);
 }
 
 .hero-section .hero-wrapper .navbar .buttons .signup-button {
@@ -105,6 +113,13 @@ span {
   text-decoration: none;
   letter-spacing: 1.1px;
   border-radius: 3px;
+  border: 1px solid var(--primary-color);
+}
+
+.hero-section .hero-wrapper .navbar .buttons .signup-button:hover {
+  background: #ffffff;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
 }
 
 .navbar {
@@ -199,6 +214,7 @@ span {
   background-image: url("Assets/images/hero-right-bg.png");
   background-repeat: no-repeat;
   background-position: top right;
+  background-size: 55% auto;
 }
 
 .hero-section .hero-wrapper .hero-content .hero-right-section img {
@@ -267,6 +283,19 @@ span {
   width: 80%;
   padding: 100px 30px;
   max-width: 1440px;
+  position: relative;
+}
+
+.todo-section .todo-wrapper .bg {
+    position: absolute;
+    top: 20%;
+    right: 15%;
+    width: 200px;
+    height: 15%;
+    background: url(Assets/images/todo-element.svg) no-repeat center center;
+    background-size: contain;
+    z-index: 0;
+    opacity: 0.8;
 }
 
 .todo-section .todo-wrapper .todo-title {
@@ -500,6 +529,19 @@ span {
   width: 80%;
   max-width: 1440px;
   padding: 50px 20px;
+  position: relative;
+}
+
+.vacation-section .vacation-wrapper .bg {
+    position: absolute;
+    top: 5%;
+    right: 15%;
+    width: 125px;
+    height: 15%;
+    background: url(Assets/images/vacation-element.svg) no-repeat center center;
+    background-size: contain;
+    z-index: 0;
+    opacity: 0.5;
 }
 
 .vacation-section .vacation-wrapper .vacation-title {
@@ -637,6 +679,19 @@ span {
   align-items: center;
   gap: 50px;
   flex-wrap: nowrap;
+  position: relative;
+}
+
+.about-section .about-wrapper .bg {
+    position: absolute;
+    top: 20%;
+    right: 0;
+    width: 200px;
+    height: 15%;
+    background: url(Assets/images/about-element.svg) no-repeat center center;
+    background-size: contain;
+    z-index: 0;
+    opacity: 1;
 }
 
 .about-section .about-wrapper .about-left-section {
@@ -807,6 +862,19 @@ span {
   gap: 20px;
   border-radius: 15px;
   flex-wrap: wrap;
+  position: relative;
+}
+
+.subscribe-section .subscribe-wrapper .bg1 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 160px;
+    background: url(Assets/images/subscribe-element1.svg) no-repeat center center;
+    background-size: contain;
+    z-index: 2;
+    opacity: 1;
+    width: 210px;
 }
 
 .subscribe-section .subscribe-wrapper .subscribe-title h2 {
@@ -831,6 +899,7 @@ span {
   border-radius: 5px;
   margin-top: 40px;
   margin-bottom: 20px;
+  z-index: 10;
 }
 
 .subscribe-form span i {
